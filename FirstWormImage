@@ -1,0 +1,22 @@
+//PImage img;
+function preload() {
+  img = loadImage("day6pos 0323.jpeg")
+}
+let img;
+
+function setup() {
+  createCanvas(1024,768);
+  img = loadImage("day6pos 0323.jpeg");
+}
+                   
+function draw() {
+  background(220);
+  image(img, 0, 0);
+  noLoop();
+}
+
+          
+  
+  
+  
+ 
